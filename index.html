@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./img/weather-app.png">
+</head>
+
+<body>
+
+    <div id="width"></div>
+    <div id="height"></div>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar search" placeholder="Search">
+            <button id="btn1" class="btn" onClick="javascript:close_clip()"><img class="search-img" src="./img/search.png" /></button>
+
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Delhi</h2>
+            <h1 class="temp">51&#8451</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity 60%</div>
+            <div class="wind">Wind speed: 6.2km/hr</div>
+        </div>
+    </div>
+</body>
+
+</html>
